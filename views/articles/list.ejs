@@ -7,5 +7,10 @@
 </head>
 <body>
     <h1>Articles List</h1>
+    <ul>
+        <% articles.forEach(article => { %>
+            <li><%= article.title %></li>
+        <% }) %>
+    </ul>
 </body>
 </html>
